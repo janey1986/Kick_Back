@@ -1,0 +1,20 @@
+/*
+Theme Name: Kickback Comedy Club Theme
+Theme URI:
+Author:
+Author URI:
+Description:
+Version: 1.0
+License:
+License URI:
+Text Domain:
+
+
+*/
+
+@font-face {
+
+    font-family: Bazar;
+    src: url(http://localhost/bootstrap-to-wp/fonts/Bazar.ttf);
+    font-weight: normal;
+}

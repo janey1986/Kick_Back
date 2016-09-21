@@ -1,0 +1,1072 @@
+
+/*
+
+RED: #952728
+DARK RED: #300809
+
+*/
+
+/** Main Styles **/
+
+/*booking form input box width*/
+.ebc-width{
+	width: 300px;
+}
+
+body {
+    overflow-x: hidden;
+    background: #000;
+    padding: 0px;
+    color: #fff;
+}
+
+#leftCol {
+	min-height:750px;
+}
+
+p {
+ 	font-size: 14px;
+ }
+
+
+ #bold{
+ 	font-weight: bold;
+ }
+
+.centreImg{
+	max-width:100%;
+	max-height:100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+		max-width: 200px;
+    padding: 14px 24px;
+    border: 0 none;
+    font-family: Bazar;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background: #dea055;
+    color: #000;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #952728;
+}
+
+.btn-primary:active, .btn-primary.active {
+    background: #952728;
+    box-shadow: none;
+}
+.btn-lg.round {
+	border-radius: 24px;
+}
+
+.email-text{
+	font-family: Bazar, Arial, 'Helvetica Neue', Helvetica, sans-serif;;
+	font-size: 30px;
+	color: black;
+	text-decoration: none;
+}
+
+#email a {
+	text-decoration: none;
+}
+
+
+.textWrap{
+float: right;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+
+#titleDiv{
+	background-color:#952728;
+	height: 40px;
+	margin: 10px;
+}
+
+#rightColTitleDiv{
+	background-color:#952728;
+	height: 40px;
+	margin: 0px;
+	float: right;
+
+	padding: 0px;
+	width: 100%;
+}
+
+#leftColTitleDiv{
+
+    background-color:#952728;
+	height: 40px;
+	margin: 0px;
+	float: left;
+
+	padding: 0px;
+	width: 100%;
+}
+
+#titleDiv h1, #leftColTitleDiv h1, #rightColTitleDiv h1{
+	margin: 10px;
+	float:left;
+	display:block;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+#sidebarBuyTickets {
+	max-width:100%;
+	max-height:100%;
+}
+
+#content {
+
+	background-color:#952728;
+	margin-top: 0px;
+}
+
+#main {
+
+	background-color:#300809;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+	margin-bottom: 0px;
+	width: 98%;
+	overflow: hidden;
+}
+
+#mainRed {
+
+	background-color:#952728;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+	margin-bottom: 0px;
+	width: 98%;
+	overflow: hidden;
+}
+
+.leftCol, .rightCol{
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	background-color:#300809;
+
+}
+
+.rightCol{
+	border-left: 10px solid #952728;
+}
+
+#show{
+	overflow: hidden;
+}
+
+
+
+#buyTicketsImg{
+	padding: 5px;
+	margin: 0 auto;
+	width: auto;
+	height: auto;
+	display: block;
+}
+
+p#shows{
+		padding: 0px 0px 0px 10px;
+		font-weight: bold;
+		float:left;
+		display:block;
+		color: #ffffff;
+		font-size: 14px;
+}
+
+h1#buyTickets {
+		margin-left: 5px;
+		padding:5px 5px 0px 5px;
+		float:left;
+		display:block;
+		width:145px;
+		height:43px;
+		background:url(../images/buyTickets.png) 0 0 no-repeat;
+}
+
+#sidebarContentContainer{
+	width: 100%;
+	margin: -10px;
+}
+
+#leftColContentContainer{
+	width: 104%;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-bottom: -10px;
+	float: left;
+	padding: 0px;
+}
+
+
+
+input, select, textarea{
+    color: #000000;
+}
+/*------mailing list------*/
+   .success, .error, .loading {
+		border: 1px solid;
+		padding-left: 5px;
+		/*height: 20px;*/
+		height: auto;
+		width: auto;
+		margin-bottom: 0px;
+		background-repeat: no-repeat;
+		margin-top: 5px;
+		display: none;
+
+		}
+
+		.success {
+		color: #4F8A10;
+		background-color: #DFF2BF;
+		}
+
+		.loading {
+		color: #4F8A10;
+		background-color: #DFF2BF;
+		}
+
+		.error {
+		color: #D8000C;
+		background-color: #FFBABA;
+		}
+
+#mailingList{
+	width: 80%;
+	vertical-align: bottom;
+	vertical-align: top;
+	color: #000;
+}
+
+#mobileMailingListInput{
+	color: #000;
+}
+
+#mailingListSubmit, #mobileMailingListSubmit{
+	width: 18%;
+	vertical-align: bottom;
+	vertical-align: top;
+	min-height: 27px;
+}
+
+#mobileMailingList{
+	max-width: 300px;
+	min-width: 200px;
+	vertical-align: bottom;
+	vertical-align: top;
+	padding: 0px;
+	margin: 5px;
+	background: transparent;
+	white-space: nowrap;
+	color: #000;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #ffffff;
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+
+.img-centered {
+    margin: 0 auto;
+}
+
+
+.navbar li {
+	width: 60px;
+}
+.navbar a:focus {
+    outline: 0;
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+}
+
+/** style of the font **/
+#navIcons{
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-family: Bazar;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#navIcons li a{
+	text-decoration: none;
+
+}
+
+/* mouse over link */
+#navIcons li a:hover {
+    color: #300809;
+}
+
+/* selected link */
+#navIcons li a:active {
+    color: #300809;
+}
+
+/* current page link */
+.current-menu-item > a{
+	color: #300809;
+	background: black;
+}
+
+/* ----------- formContact ----------- */
+.form{
+margin:0px;
+width:auto;
+padding-top:0px;
+padding-bottom: 20px;
+}
+.form p, h1, form, button{border:0; margin:0; padding:0; color: #ffffff;}
+
+
+.formLabels{
+	background:transparent;
+	padding:0px;
+	margin:0px;
+	font-weight: normal;
+
+
+}
+
+
+/** START MOBILE SIZE **/
+@media(max-width:480px)  {
+
+#show img{
+	max-width: 80px;
+  	max-height:80px;
+
+
+}
+
+#map-canvas{
+	padding: 10px;
+	margin: 10px;
+	width: 95%;
+	height: 300px;
+
+}
+
+#mainCarousel{
+	display: none;
+}
+
+#formContainer{
+
+}
+.formInput{
+	background:transparent;
+	padding:0px;
+	margin:0px;
+/*	max-width: 40%;*/
+
+
+}
+.textWrap{
+
+margin: 0 auto;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+#promoVideo{
+	width: 100%;
+	height: auto;
+}
+
+#leftColContentContainer{
+	width: 105%;
+
+
+}
+
+
+	.container {
+
+    	width:100%;
+
+    }
+
+ #mainCarousel {
+
+	background-color:#300809;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+	margin-bottom: 0px;
+	width: 98%;
+	overflow: hidden;
+
+}
+
+/*height of menu bar*/
+	.navbar{
+	min-height: 50px;
+	}
+
+	/*padding round menu toggle button*/
+	.navbar-toggle {
+	padding: 0px;
+  	    margin-top: 5px;
+  	    margin-bottom: 5px;
+
+	}
+	.aboveNavbar {
+	    background:url(../images/headerMob.jpg) 0 0 no-repeat;
+       	width: 100%;
+       	height: 100%;
+		min-height: 130px;
+	}
+
+
+	ul#nav-logo-mob{
+
+		list-style:none;
+		margin:0 auto;
+		padding:0;
+		overflow: auto;
+	}
+
+	ul#nav-logo-mob li {
+		display:inline;
+
+	}
+
+	ul#nav-logo-mob li a {
+		text-decoration:none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		min-height: 131px;
+		width: 134px;
+	}
+
+	ul#nav-logo-mob li#themoblogo a{
+		background:url(../images/logoMob.png) 0 0 no-repeat;
+	}
+
+	.navbar-static-top {
+    text-transform: uppercase;
+    font-family: Bazar;
+    font-weight: 700;
+    margin: 0px;
+    padding:0px;
+    background: #000;
+
+	}
+
+    .navbar-static-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+        margin-top: 0px;
+
+    }
+    .navbar-brand{
+		display: none;
+
+    }
+
+    .mynavbar {
+	text-align:center;
+
+
+	}
+	.mynavbar .nav {
+
+		margin-top: 0px;
+
+
+
+	}
+	.mynavbar .nav li {
+		display:inline-block;
+		margin:0 7px;
+		vertical-align:middle;
+		width: 80px;
+		height: 30px;
+
+	}
+
+	.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
+.navbar .nav > li.current-menu-item > a,
+.navbar .nav > li.current-menu-ancestor > a {
+height: 30px;
+}
+
+	  .phoneAndEmail {
+  	display: none;
+
+  }
+  	  .socialIcons {
+  	display: none;
+  	margin-top: -10px;
+  	float:right;
+
+
+  }
+
+  	    .navbar-call{
+  	    margin-left: 15px;
+		margin-top: 5px;
+  	    margin-bottom: 5px;
+  	    float:left;
+
+
+    }
+        .navbar-email{
+        margin-left: 5px;
+  	    margin-top: 5px;
+  	    margin-bottom: 5px;
+  	    float:left;
+
+
+    }
+            .navbar-sms{
+         margin-left: 5px;
+  	    margin-top: 5px;
+  	    margin-bottom: 5px;
+  	    float:left;
+
+
+    }
+
+
+.imageGroup{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 5px;
+}
+
+.contactFormSubmit{
+	max-width:100%;
+	max-height:100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+	/*Booking form submit and cancel buttons*/
+.ebcal-button-submit, .ebcal-button-cancel, .ebcal-button-applyPromo{
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+	margin-bottom:10px;
+}
+
+/*booking form input box width*/
+.ebc-width{
+	width: 100%;
+}
+
+#footerDiv{
+	text-align:center;
+}
+
+#TA_socialButtonBubbles445{
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+}
+#j3REJoHt{
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+} /*end mobile size*/
+
+
+/** START TABLET SIZE **/
+@media(min-width:481px) and (max-width:919px) {
+
+#show img{
+	max-width: 120px;
+  	max-height:120px;
+
+
+}
+
+#map-canvas{
+	padding: 10px;
+	margin: 10px;
+	width: 95%;
+	height: 470px;
+
+}
+
+#formContainer{
+/*	width: 85%;*/
+
+}
+
+.formInput{
+	background:transparent;
+	padding:0px;
+	margin:0px;
+	background:transparent;
+
+
+}
+
+#promoVideo{
+	width: 100%;
+	height: 315px;
+}
+
+#leftColContentContainer{
+	width: 104%;
+
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-bottom: -10px;
+	float: left;
+	padding: 0px;
+
+}
+#sidebarContentContainer{
+	width: 110%;
+	margin: -10px;
+}
+
+	.container {
+    	width:100%;
+
+    }
+
+ #mainCarousel {
+
+	background-color:#300809;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+	margin-bottom: 0px;
+	width: 98%;
+	overflow: hidden;
+
+}
+
+	.aboveNavbar {
+	    background:url(../images/headerMob.jpg) 0 0 no-repeat;
+         	width: 100%;
+       	height: 100%;
+
+	}
+	/*height of menu bar*/
+	.navbar{
+	min-height: 50px;
+	}
+
+	/*padding round menu toggle button*/
+	.navbar-toggle {
+	padding: 0px;
+  	    margin-top: 5px;
+  	    margin-bottom: 5px;
+
+	}
+
+	.navbar-static-top {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    margin: 0px;
+    padding:0px;
+    background: #000;
+
+	}
+
+    .navbar-static-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+        margin-top: 0px;
+
+    }
+    .navbar-brand{
+		display: none;
+
+    }
+
+    .mynavbar {
+	text-align:center;
+
+
+	}
+	.mynavbar .nav {
+
+		margin-top: 0px;
+
+
+
+	}
+	.mynavbar .nav li {
+		display:inline-block;
+		margin:0 7px;
+		vertical-align:middle;
+		width: 80px;
+		height: 30px;
+
+	}
+
+	.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
+.navbar .nav > li.current-menu-item > a,
+.navbar .nav > li.current-menu-ancestor > a {
+height: 30px;
+}
+
+	  .phoneAndEmail {
+  	display: none;
+
+  }
+  	  .socialIcons {
+  	display: none;
+  	margin-top: -10px;
+  	float:right;
+
+
+  }
+
+  	    .navbar-call{
+  	    margin-left: 15px;
+  	    margin-top: 5px;
+  	    margin-bottom: 5px;
+  	    float:left;
+
+
+    }
+        .navbar-email{
+         margin-left: 5px;
+  	    margin-top: 5px;
+  	    margin-bottom: 5px;
+  	    float:left;
+
+
+    }
+           .navbar-sms{
+         margin-left: 5px;
+  	    margin-top: 5px;
+  	    margin-bottom: 5px;
+  	    float:left;
+
+
+    }
+
+    .imageGroup{
+
+		padding: 5px;
+	}
+
+/*booking form input box width*/
+.ebc-width{
+	width: 300px;
+}
+
+#footerDiv{
+	text-align:center;
+}
+
+#TA_socialButtonBubbles445{
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+}
+#j3REJoHt{
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+
+} /*end TABLET size*/
+
+
+
+/** FOR FULL SCREEN MODE **/
+
+@media(min-width:920px) {
+
+#show img{
+	max-width: 150px;
+  	max-height:150px;
+
+
+}
+
+#map-canvas{
+	padding: 10px;
+	margin: 10px;
+	width: 95%;
+	height: 470px;
+
+}
+
+/*booking form input box width*/
+.ebc-width{
+	width: 300px;
+}
+.carousel-inner{
+	margin-top: 35px;
+}
+
+#formContainer{
+	width: 65%;
+
+}
+.formInput{
+	background:transparent;
+	padding:0px;
+	margin:0px;
+	max-width: 100%;
+	background:transparent;
+
+
+}
+    .container {
+    	width:920px;
+
+    }
+
+    header {
+    	display: none;
+    }
+
+ #promoVideo{
+	width: 100%;
+	height: 315px;
+}
+
+ #mainCarousel {
+
+	background-color:#300809;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 0px;
+	width: 98%;
+	overflow: hidden;
+	margin-top: -35px;
+}
+
+ #mainContent {
+
+	overflow: hidden;
+	margin-top: -35px;
+}
+
+  .phoneAndEmail {
+  	float: right;
+	margin-top: 20px;
+
+  }
+
+    .socialIcons {
+  	float: right;
+	margin-top: -10px;
+  	float:right;
+
+  }
+
+
+	.navbar{
+	margin-bottom: 0px;
+	}
+
+    .navbar-static-top {
+
+        padding-top: 25px;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+
+        background:url(../images/header.jpg) 0 0 no-repeat;
+        margin-left: auto;
+		margin-right: auto;
+		width: 920px;
+		float: bottom;
+
+    }
+
+    .navbar-static-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+    .navbar-brand{
+
+		display:block;
+		width:234px;
+		height:230px;
+		text-indent:-9999em;
+		background:url(../images/logo.png) 0 0 no-repeat;
+		float: left;
+		margin-top: -60px;
+
+
+    }
+
+
+
+
+
+    .mynavbar {
+	text-align:center;
+
+
+
+	}
+	.mynavbar .nav {
+		margin-top: 60px;
+
+	}
+	.mynavbar .nav li {
+		display:inline-block;
+		margin:0 7px;
+		vertical-align:middle;
+		width: 80px;
+
+	}
+
+
+
+    .mainFullSize {
+	width:920px;
+	margin:0 auto;
+
+
+	}
+
+
+
+	#content {
+	margin-top: 0px;
+	width:100%;
+	padding:0px;
+	position:relative;
+	z-index:1;
+	background-color:#952728;
+
+
+
+	}
+
+	    .navbar-call{
+		display: none;
+
+    }
+        .navbar-email{
+		display: none;
+
+    }
+
+        .navbar-sms{
+		display: none;
+
+    }
+
+	#socialWrap {
+
+margin-top:0px;
+padding-top: 0px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+height: 50px;
+
+
+}
+
+ul#social {
+
+list-style:none;
+margin:0 auto;
+padding:0;
+overflow: auto;
+}
+
+ul#social li {
+display:inline;
+
+}
+
+ul#social li a {
+text-decoration:none;
+display: block;
+padding:10px 35px;
+float:left;
+height: 50px;
+}
+
+ul#social li#fb a{
+background: url(../images/s-icons/fb.png) 0 0 no-repeat ;
+}
+ul#social li#yt a{
+background: url(../images/s-icons/yt.png) 0 0 no-repeat ;
+}
+ul#social li#gp a{
+background: url(../images/s-icons/gp.png) 0 0 no-repeat ;
+}
+ul#social li#tw a{
+background: url(../images/s-icons/tw.png) 0 0 no-repeat ;
+}
+
+.imageGroup{
+
+		padding: 5px;
+	}
+
+} /** close media over 920px **/
